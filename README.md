@@ -40,6 +40,8 @@ Since zeitgeist.css is supposed to be representative of the opinions and knowled
 2. **[Fork][4] the code, make the necessary changes, and submit a pull request.**
     Include a description of and rationale for the changes you've made. This will also require community feedback, but it's much easier for me to merge your changes.
 
+Necessarily, I must make the final decisions about what ends up in zeitgeist.css and what doesn't. Consider this a benevolent dictatorship; as I'm not a designer, I will allow the will of the community to guide my decisions fully, and make sure all issues are thoroughly discussed before a decision is made.
+
 Credits
 -------
 
