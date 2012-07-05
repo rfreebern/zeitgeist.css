@@ -42,6 +42,10 @@ Since zeitgeist.css is supposed to be representative of the opinions and knowled
 
 Necessarily, I must make the final decisions about what ends up in zeitgeist.css and what doesn't. Consider this a benevolent dictatorship; as I'm not a designer, I will allow the will of the community to guide my decisions fully, and make sure all issues are thoroughly discussed before a decision is made.
 
+### Getting Started
+
+After you have forked and cloned the zeitgeist.css repo, make your changes to the `zeitgeist.css` file, and open `examples/index.html` in your browser. By clicking the grey stylesheet toggle box in the upper right, you can switch between the current master stylesheet and your local version, to easily compare the changes you're making. You'll need to refresh your browser each time you save the file in order to see your latest modifications. When you are satisfied with your changes, commit them to your local repo, push to your github fork, and submit a pull request.
+
 Credits
 -------
 
