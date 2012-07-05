@@ -23,11 +23,11 @@ Usage
 
 Link directly to the current, regularly-updated master:
 
-    <link rel="stylesheet" href="//github.com/rfreebern/zeitgeist.css/raw/master/zeitgeist.min.css" />
+    <link rel="stylesheet" href="http://zeitgeist.rnf.me/zeitgeist.min.css" />
 
-Link to a specific tagged version:
+Link to a specific tagged version (e.g. for tag _2012-july_):
 
-    <link rel="stylesheet" href="//github.com/rfreebern/zeitgeist.css/raw/july-2012/zeitgeist.min.css" />
+    <link rel="stylesheet" href="http://zeitgeist.rnf.me/archive/2012/july/zeitgeist.min.css" />
 
 Contributing
 ------------
