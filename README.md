@@ -29,6 +29,10 @@ Link to a specific tagged version (e.g. for tag _2012-july_):
 
     <link rel="stylesheet" href="http://zeitgeist.rnf.me/archive/2012/july/zeitgeist.min.css" />
 
+Use zeitgeist.css on any unstyled page by installing this Chrome extension, created by [@scottnelle][7]:
+
+[http://www.scottnelle.com/318/zeitgeist-css-chrome-extension/][8]
+
 Contributing
 ------------
 
@@ -62,3 +66,5 @@ As a product by and for the web design community as a whole, zeitgeist.css is pu
  [4]: https://github.com/rfreebern/zeitgeist.css/fork_select "Fork zeitgeist.css"
  [5]: http://rnf.me "Ryan Freebern: I &hearts; the web."
  [6]: http://twitter.com/rfreebern "@rfreebern on Twitter"
+ [7]: http://twitter.com/scottnelle "@scottnelle on Twitter"
+ [8]: http://www.scottnelle.com/318/zeitgeist-css-chrome-extension/ "zeitgeist.css Chrome extension by Scott Nelle"
