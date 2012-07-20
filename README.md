@@ -1,7 +1,7 @@
 zeitgeist.css
 =============
 
-zeitgeist.css is a crowdsourced, extendable basic CSS file that imparts a design based on current design aesthetics to any simple HTML file, such as those produced by compiling [markdown][1].
+zeitgeist.css is a crowdsourced, extendable basic CSS file that imparts a design based on current design aesthetics to any simple HTML file, such as those produced by compiling [markdown][1]. [The zeitgeist.css home page][9] is an example of a simple markdown-based page using zeitgeist.css.
 
 zeitgeist.css has the following goals:
 
@@ -68,3 +68,4 @@ As a product by and for the web design community as a whole, zeitgeist.css is pu
  [6]: http://twitter.com/rfreebern "@rfreebern on Twitter"
  [7]: http://twitter.com/scottnelle "@scottnelle on Twitter"
  [8]: http://www.scottnelle.com/318/zeitgeist-css-chrome-extension/ "zeitgeist.css Chrome extension by Scott Nelle"
+ [9]: http://zeitgeist.rnf.me "zeitgeist.css"
