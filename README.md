@@ -29,7 +29,7 @@ Link to a specific tagged version (e.g. for tag _2012-july_):
 
     <link rel="stylesheet" href="http://zeitgeist.rnf.me/archive/2012/july/zeitgeist.min.css" />
 
-Use zeitgeist.css on any unstyled page by installing this Chrome extension, created by [@scottnelle][7]:
+Apply zeitgeist.css to any unstyled page you visit by installing this Google Chrome extension, created by [@scottnelle][7]:
 
 [http://www.scottnelle.com/318/zeitgeist-css-chrome-extension/][8]
 
@@ -55,10 +55,12 @@ Credits
 
 zeitgeist.css is a work of the design community as a whole. The project was started by [Ryan Freebern][5]. Please [follow @rfreebern on twitter][6].
 
+Code from the [Better Web Readability Project][10] was contributed by [Vladimir Carrer][11].
+
 License
 -------
 
-As a product by and for the web design community as a whole, zeitgeist.css is public domain.
+As a product by and for the web design community as a whole, zeitgeist.css is licensed under the Mozilla Public License 2.0. See the LICENSE file for details.
 
  [1]: http://daringfireball.net/projects/markdown "Daring Fireball: Markdown"
  [2]: http://h5bp.com "HTML5 Boilerplate"
@@ -69,3 +71,5 @@ As a product by and for the web design community as a whole, zeitgeist.css is pu
  [7]: http://twitter.com/scottnelle "@scottnelle on Twitter"
  [8]: http://www.scottnelle.com/318/zeitgeist-css-chrome-extension/ "zeitgeist.css Chrome extension by Scott Nelle"
  [9]: http://zeitgeist.rnf.me "zeitgeist.css"
+ [10]: http://code.google.com/p/better-web-readability-project/ "The Better Web Readability Project"
+ [11]: https://github.com/vladocar "Vladimir Carrer on Github"

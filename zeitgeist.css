@@ -124,32 +124,62 @@ a:active {
    Typography
    ========================================================================== */
 
+body {
+    font: 1em/1.625em "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size-adjust: none;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    background-color: #FFFEF0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    color: #333;
+    font-family: Georgia, serif;
+}
+
 h1 {
-    font-size: 350%;
+    font-size: 2.125em;
+    margin-bottom: 0.765em;
 }
 
 h2 {
-    font-size: 275%;
+    font-size: 1.9em;
+    margin-bottom: 0.855em;
 }
 
 h3 {
-    font-size: 200%;
+    font-size: 1.7em;
+    margin-bottom: 0.956em;
 }
 
 h4 {
-    font-size: 166%;
+    font-size: 1.4em;
+    margin-bottom: 1.161em;
 }
 
-h5 {
-    font-size: 133%;
+h5, h6 {
+    font-size: 1.313em;
+    margin-bottom: 1.238em;
 }
 
-h6 {
-    font-size: 115%;
+a {
+    color: #005AF2;
+    text-decoration: none;
 }
 
-abbr[title] {
-    border-bottom: 1px dotted;
+a:hover {
+    text-decoration: underline;
+}
+
+abbr, acronym {
+    border-bottom: 1px dotted #000;
+}
+
+address {
+    margin-top: 1.625em;
+    font-style: italic;
 }
 
 b,
@@ -158,11 +188,52 @@ strong {
 }
 
 blockquote {
-    margin: 1em 40px;
+    padding: 1em 1em 1.625em 1em;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 3em;
+    margin-left: -0.625em;
+    font-family: Georgia, serif;
+    color: #aaa;
+    line-height: 0;
+}
+
+blockquote > p {
+    padding: 0;
+    margin: 0;
+}
+
+caption {
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+del {
+    color: #000;
+}
+
+dfn, em {
+    font-style: italic;
 }
 
 dfn {
-    font-style: italic;
+    font-weight: bold;
+}
+
+dl {
+    margin: 0 0 1.625em 0;
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+dl dd {
+    margin-left: 1.625em;
 }
 
 hr {
@@ -170,7 +241,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
+    margin-bottom: 1.625em;
     padding: 0;
 }
 
@@ -187,6 +258,37 @@ mark {
     font-weight: bold;
 }
 
+p {
+    padding: 0 0 0.8125em 0;
+    color: #111;
+    font-weight: 300;
+}
+
+p + p {
+    text-indent: 1.625em;
+}
+
+p.first:first-letter {
+    float: left;
+    font-family: Baskerville, "Palatino Linotype", serif;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1em;
+    margin-bottom: -0.2em;
+    padding: 0.2em 0.1em 0 0;
+}
+
+p img {
+    float: left;
+    margin: 0.5em 0.8125em 0.8125em 0;
+    padding: 0;
+}
+
+p img.right {
+    float: right;
+    margin: 0.5em 0 0.8125em 0.8125em;
+}
+
 /*
  * Redeclare monospace font family: h5bp.com/j
  */
@@ -194,21 +296,24 @@ mark {
 pre,
 code,
 kbd,
-samp {
-    font-family: Monaco, "Lucida Mono", "Liberation Mono", "Courier", monospace;
+samp,
+tt {
+    font-family: Monaco, "Lucida Mono", "Liberation Mono", "Courier New", "Courier", monospace;
     _font-family: 'courier new', monospace;
     font-size: 1em;
     background: #eee;
+    line-height: 1.5;
 }
 
 /*
  * Improve readability of pre-formatted text
  */
 
-pre {
+pre, code {
     white-space: pre;
     white-space: pre-wrap;
     word-wrap: break-word;
+    margin: 1.625em 0;
 }
 
 q {
@@ -225,9 +330,7 @@ small {
     font-size: 85%;
 }
 
-p, ul, ol {
-    font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
-}
+
 
 /*
  * Position subscript and superscript content without affecting line-height: h5bp.com/k
@@ -249,6 +352,10 @@ sub {
     bottom: -0.25em;
 }
 
+tt {
+    display: block;
+    margin: 1.625em 0;
+}
 
 /* =============================================================================
    Lists
@@ -256,12 +363,13 @@ sub {
 
 ul,
 ol {
-    margin: 1em 0;
+    list-style-position: outside;
+    margin: 0 0 1.625em 0;
     padding: 0 0 0 40px;
 }
 
-dd {
-    margin: 0 0 0 40px;
+li ul, li ol {
+    margin: 0 1.625em;
 }
 
 nav ul,
@@ -442,10 +550,25 @@ textarea {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+    margin-bottom: 1.625em;
+}
+
+th {
+    font-weight: bold;
+}
+
+tr, th, td {
+    margin: 0;
+    padding: 0 1.625em 0 1em;
+    height: 26px;
 }
 
 td {
     vertical-align: top;
+}
+
+tfoot {
+    font-style: italic;
 }
 
 
